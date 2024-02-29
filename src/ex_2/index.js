@@ -1,9 +1,9 @@
 import {View, Text} from 'react-native';
 
-function Props({mensagem, nome}) {
+function Props({mensagem}) {
     return (
       <View>
-        <Text>{(mensagem ? mensagem : nome)}</Text>
+        <Text>Mensagem: {mensagem}</Text>
       </View>
     );
 }

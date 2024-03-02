@@ -1,9 +1,9 @@
-import { StyleSheet, View, Text, Image} from 'react-native';
+import { StyleSheet, View, Text} from 'react-native';
 
 export default function Texto() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Titulo</Text>
+      
       <Text style={styles.texto}>Nome 1</Text>
       <Text style={styles.texto}>Nome 2</Text>
       <Text style={styles.texto}>Nome 3</Text>
@@ -19,11 +19,13 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize:20,
     fontWeight: 'bold',
-    marginBottom:20
+    marginBottom:20,
+    color: '#405FAA'
 
   },
   texto: {
-    fontSize:12
+    fontSize:12,
+    color: '#405FAA'
 
   }
 });
